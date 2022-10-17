@@ -86,7 +86,7 @@ class RobotRobbersEnv(gym.Env):
 
     def reset(self, seed=None) -> tuple:
 
-        self.seed(seed)
+        #self.seed(seed)
         self.random = np.random.RandomState(seed)
 
         self._n_scrooges = self.max_n_scrooges
